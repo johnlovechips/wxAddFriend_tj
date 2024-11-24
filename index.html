@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加到通讯录</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wechat-container">
+        <!-- 顶部导航栏 -->
+        <div class="nav-bar">
+            <div class="back-arrow">〈</div>
+            <div class="nav-title">添加到通讯录</div>
+        </div>
+
+        <!-- 主要内容区 -->
+        <div class="main-content">
+            <!-- 基本信息 -->
+            <div class="info-section">
+                <div class="user-info">
+                    <img src="avatar.jpg" alt="头像" class="avatar">
+                    <div class="user-detail">
+                        <div class="nickname">小猪佩奇</div>
+                        <!--  <div class="meta-item">性别：女</div>   -->
+                        <div class="meta-item">微信号：w31270568</div>
+                        <div class="meta-item">地区：江苏 扬州</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 验证信息 -->
+            <div class="verify-section">
+                <div class="verify-item">
+                    <div class="item-label">备注</div>
+                    <div class="item-content">
+                        <input type="text" placeholder="请填写备注" class="remark-input">
+                        <div class="magic-image-container">
+                            <img src="love.jpeg" alt="魔术图片" id="magicImage" class="magic-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="verify-item">
+                    <div class="item-label">标签</div>
+                    <div class="item-content with-arrow">
+                        <span class="placeholder-text">添加标签</span>
+                        <span class="arrow">></span>
+                    </div>
+                </div>
+                <div class="verify-item">
+                    <div class="item-label">来源</div>
+                    <div class="item-content">扫描二维码名片</div>
+                </div>
+            </div>
+
+            <!-- 权限设置 -->
+            <div class="permission-section">
+                <div class="verify-item">
+                    <div class="item-label">朋友圈和视频动态</div>
+                    <div class="item-content with-arrow">
+                        <span>不让他(她)看</span>
+                        <span class="arrow">></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 添加到通讯录按钮改为独立section -->
+            <div class="add-section">
+                <div class="verify-item">
+                    <div class="add-btn">添加到通讯录</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
